@@ -1,0 +1,69 @@
+#top{
+    text-align: center;
+}
+
+.social_icon{
+    margin-left: 15px;
+}
+
+#tel{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+#english_version{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.text_app{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 30px;
+}
+
+
+#p_1{
+    font-size: x-large;
+    color: white;
+    text-align: justify;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+}
+
+#first_section{
+    background-image: url('../assets/arbol.jpg');
+    height: 300px;
+}
+
+
+.checkbox {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font: 14px/20px "Open Sans", Arial, sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 1.4em;
+    -webkit-transition: all 0.2s, background 0.2s ease-in-out;
+    transition: all 0.2s, background 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: -2px -1px 0 #343a3f;
+    background: #f3f3f3;
+}
+.checkbox::before{
+    color: rgb(23, 86, 228);
+    border: 1px solid #343a3f;
+    box-shadow: 2px 1px 0 #343a3f;
+}
+
+.checkbox:checked{
+    border: 2px solid #fff;
+    border-radius: 0.3em;
+    background: #50565a;
+    box-shadow: 2px 1px 0 #50565a;
+}
